@@ -3,6 +3,7 @@ let chunks = [];
 let recorder;
 let startPauseBtn = document.getElementsByClassName("start")[0];
 let playBackBtn = document.getElementsByClassName("play")[0];
+let playBackBtn = document.getElementsByClassName("stop")[0];
 
 device.then(stream => {
       recorder = new MediaRecorder(stream);
