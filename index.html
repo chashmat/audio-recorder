@@ -7,11 +7,28 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Web Audio Recorder</title>
       <link rel="stylesheet" href="./style.css">
-      <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="./favicon-mic-cut.ico" type="image/x-icon">
+      <script src="./script.js" defer></script>
 </head>
 
 <body>
-
+      <audio id="audio" controls></audio>
+      <div class="display"></div>
+      <div class="controls">
+            <div class="play">
+                  <div class="icon"></div>
+            </div>
+            <div class="start">
+                  <div class="icon"></div>
+                  <div class="bars hide">
+                        <div></div>
+                        <div></div>
+                  </div>
+            </div>
+            <div class="stop">
+                  <div class="icon"></div>
+            </div>
+      </div>
 </body>
 
 </html>
